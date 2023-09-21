@@ -70,7 +70,6 @@ button {
   button:hover {
     color: #333;
     background-color: white;
-    transform: scale(1.1);
     border: 5px solid #333;
   }
 
