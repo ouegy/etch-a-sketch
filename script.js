@@ -1,3 +1,9 @@
+// This project was created as part of The Odin Project.
+// I have yet to implement the darken feature.
+// The code is deliberately left as is and could no doubt be be reduced in length.
+// I find it readable however and don't feel it needs comments to explain.
+// AbortController class to in place of removentListener() worked well - remember to instantiate a new controller each time!
+
 let grid_width = 64;
 let colour_mode = "black";
 
