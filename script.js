@@ -51,11 +51,13 @@ function setColour() {
     let controller = new AbortController;
     
     grid_container.addEventListener('mousedown', (e) => {
+    e.target.style.backgroundColor = 'black';
+    console.log(e.target);
     e.preventDefault();
     grid_elements.forEach((element) => {
-        element.addEventListener('mouseenter', () => { 
+        element.addEventListener('mouseenter', (e) => { 
             if(colour_mode == "black") {
-                element.classList.add("black");
+                e.target.style.backgroundColor = 'black';
             }
             else if(colour_mode == "darken") {
                
